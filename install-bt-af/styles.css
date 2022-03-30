@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,700;1,100&display=swap');
-
 h1 {
   font-family: 'Crete Round', serif;
   font-style: normal;
@@ -63,4 +61,26 @@ h2 {
   font-size: 20px;
   line-height: 28px;
   color: #091e42;
+}
+
+.card {
+  background-image: url(./Art/project-image.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+ul {
+  padding: 0%;
+}
+
+li {
+  list-style: none;
+  color: #fff;
+  border: 1px solid #8993a4;
+  padding: 10px 12px;
+}
+
+a {
+  text-decoration: none;
+  color: #8993a4;
 }
