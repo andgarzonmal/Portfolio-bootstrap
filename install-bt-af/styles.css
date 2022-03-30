@@ -169,4 +169,15 @@ a {
   .bg-headline {
     display: none;
   }
+
+  .cap-lists {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+  }
+
+  .cap-lists li {
+    margin: 0%;
+  }
 }
