@@ -51,3 +51,16 @@ h2 {
   height: 0px;
   border-bottom: 1px black solid;
 }
+
+.stories-img {
+  width: 100%;
+}
+
+.p-black {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #091e42;
+}
