@@ -1,0 +1,37 @@
+h1 {
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 82px;
+  color: #f55800;
+}
+
+h3 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+}
+
+.p-white {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #fff;
+}
+
+.bg-headline {
+  background-image: url(./Art/Illustration-header-desktop.svg);
+  background-position: top right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.headline {
+  height: 100vh;
+}
