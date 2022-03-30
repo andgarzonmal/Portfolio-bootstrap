@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,700;1,100&display=swap');
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 82px;
+  color: #f55800;
+}
+
+h3 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+}
+
+.p-white {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #fff;
+}
+
+.bg-headline {
+  background-image: url(./Art/Illustration-header-desktop.svg);
+  background-position: top right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.headline {
+  height: 100vh;
+}
+
+h2 {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #091e42;
+}
+
+.div-line {
+  height: 0px;
+  border-bottom: 1px black solid;
+}
+
+.stories-img {
+  width: 100%;
+}
+
+.p-black {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #091e42;
+}
+
+.card {
+  background-image: url(./Art/project-image.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.categories {
+  padding: 0%;
+}
+
+li {
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+.categories li {
+  color: #fff;
+  border: 1px solid #8993a4;
+  padding: 10px 12px;
+  margin:0%;
+}
+
+a {
+  text-decoration: none;
+  color: #8993a4;
+}
+
+.works-header {
+  padding:10% 0%;
+}
+
+.work-section {
+  padding-bottom: 8%;
+}
+
+.about-1 {
+  padding: 8% 0%;
+}
+
+.bg-about {
+  background-image: url(./Art/illustration-about-me-desktop.svg);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size:100%;
+}
+
+.div-line2 {
+  height: 0px;
+  border-bottom: 1px white solid;
+  margin: 10%;
+  width:80%
+}
+
+.capabilities1 {
+  list-style-image: url(./Art/language.png);
+}
+
+.capabilities2 {
+  list-style-image: url(./Art/frameworks.png);
+}
+
+.capabilities3 {
+  list-style-image: url(./Art/skills.png);
+}
+
+.cap-list {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  color: #fff;
+}
+
+.capabilities {
+  margin-bottom: 10%;
+}
+
+.contact-h2 {
+  margin-top: 8%;
+  margin-bottom: 12%;
+}
+
+.contact-form {
+  margin-top: 8%;
+}
+
+@media screen and (max-width: 768px) {
+  .social-media {
+    display: flex;
+    flex-flow: row wrap;
+    order: 5;
+    justify-content: space-between;
+    width: 80%;
+  }
+  .bg-headline {
+    display: none;
+  }
+
+  .cap-lists {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+  }
+
+  .cap-lists li {
+    margin: 0%;
+  }
+}
