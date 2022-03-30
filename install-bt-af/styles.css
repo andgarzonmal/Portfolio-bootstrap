@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,700;1,100&display=swap');
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 h1 {
   font-family: 'Crete Round', serif;
   font-style: normal;
@@ -69,18 +77,74 @@ h2 {
   background-repeat: no-repeat;
 }
 
-ul {
+.categories {
   padding: 0%;
 }
 
 li {
   list-style: none;
+  padding-bottom: 10px;
+}
+
+.categories li {
   color: #fff;
   border: 1px solid #8993a4;
   padding: 10px 12px;
+  margin:0%;
 }
 
 a {
   text-decoration: none;
   color: #8993a4;
+}
+
+.works-header {
+  padding:10% 0%;
+}
+
+.work-section {
+  padding-bottom: 8%;
+}
+
+.about-1 {
+  padding: 8% 0%;
+}
+
+.bg-about {
+  background-image: url(./Art/illustration-about-me-desktop.svg);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size:100%;
+}
+
+.div-line2 {
+  height: 0px;
+  border-bottom: 1px white solid;
+  margin: 10%;
+  width:80%
+}
+
+.capabilities1 {
+  list-style-image: url(./Art/language.png);
+}
+
+.capabilities2 {
+  list-style-image: url(./Art/frameworks.png);
+}
+
+.capabilities3 {
+  list-style-image: url(./Art/skills.png);
+}
+
+.cap-list {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  color: #fff;
+}
+
+.capabilities {
+  margin-bottom: 10%;
 }
