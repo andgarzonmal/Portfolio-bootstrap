@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,700;1,100&display=swap');
+
 h1 {
   font-family: 'Crete Round', serif;
   font-style: normal;
@@ -34,4 +36,18 @@ h3 {
 
 .headline {
   height: 100vh;
+}
+
+h2 {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #091e42;
+}
+
+.div-line {
+  height: 0px;
+  border-bottom: 1px black solid;
 }
